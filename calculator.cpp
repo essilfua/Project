@@ -15,7 +15,9 @@ cout<<"Please enter the second number";
 cin>>input2;
 
 output= input1-input2;
-cout>>output;
+
+cout<<"The solution is: ";
+cout<<output;
 
 	return 0;
 }
