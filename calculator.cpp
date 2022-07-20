@@ -7,32 +7,32 @@ int main(int argc, char** argv) {
 double input1= 0.0;
 double input2= 0.0;
 double output= 0.0;
-string operator="";
+string op="";
 
 cout<<"Please enter the first number";
 cin>>input1;
 
 cout<<"Please enter the operator: (+,-,/,*) ";
-cin>>operator;
+cin>>op;
 
 cout<<"Please enter the second number";
 cin>>input2;
 
 
-if (operator == "+")
+if (op == "+")
 {
   output = input1 + input2;
 }
-else if (operator=="-")
+else if (op=="-")
 {
  output=input1-input2;
 
 }
-else if (operator=="/")
+else if (op=="/")
 {output=input1/input2;
 }
 
-else if (operator=="*")
+else if (op=="*")
 {output=input1*input2;
 }
 
